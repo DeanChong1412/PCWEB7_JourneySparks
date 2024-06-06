@@ -7,6 +7,7 @@ import { signOut } from "firebase/auth"
 import { deleteDoc, doc, getDoc } from "firebase/firestore";
 import { ref, deleteObject } from "firebase/storage";
 import ReactStars from "react-rating-stars-component"; 
+import firebase from "firebase/app";
 
 export default function PostPageDetails() {
   const [caption, setCaption] = useState("");

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { collection, getDocs } from "firebase/firestore";
 import { db, auth } from "../firebase";
 import { signOut } from "firebase/auth"
+import firebase from "firebase/app";
 
 export default function PostPageHome() {
   const [posts, setPosts] = useState([]);

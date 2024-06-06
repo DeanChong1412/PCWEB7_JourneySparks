@@ -7,6 +7,7 @@ import { auth, db, storage} from "../firebase";
 import { signOut } from "firebase/auth";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import ReactStars from "react-rating-stars-component"; 
+import firebase from "firebase/app";
 
 export default function PostPageAdd() {
   const [caption, setCaption] = useState("");
