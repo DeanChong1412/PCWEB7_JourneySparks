@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styles.css or App.css */
+.navbar-happy {
+  background-color: #FFB6C1; /* Light pink background */
+  border-bottom: 2px solid #FF69B4; /* Hot pink border for a complementary look */
+}
+
+.navbar-brand-happy {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #FF69B4; /* Hot pink text */
+}
+
+.nav-link-happy {
+  color: #FF69B4; /* Hot pink text */
+  font-weight: bold;
+}
+
+.nav-link-happy:hover {
+  color: #FF1493; /* Deep pink text on hover */
+  text-decoration: underline;
+}
